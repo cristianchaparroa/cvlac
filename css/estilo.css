@@ -1,0 +1,27 @@
+.jumbotron {
+  margin: 15px 0;
+  text-align: center;
+  background-color: #3299bb;
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 2px 2px black;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+.dropdown-menu {
+  min-width: 250px;
+}

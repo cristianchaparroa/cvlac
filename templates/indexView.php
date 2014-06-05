@@ -9,9 +9,7 @@
 		?>
 		<!-- JUMBOTRON -->	
 		<div class="jumbotron"> 
-			<div class="container">
-    			<h1><?php echo $this->titulo; ?></h1>
-			</div>
+			
 		</div>
 		<!--CONTENIDO -->
 		<div class="container">

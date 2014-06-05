@@ -2,7 +2,6 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-
 require_once('core/view/Template.php');
 $titulo = 'Grupo de Investigación en Interconexión de Redes Académicas';
 
@@ -11,8 +10,8 @@ $template = new Template( 'templates/indexView.php', array(
 	'head' => new Template( 'templates/head.php', array( 'titulo' => $titulo )),
 	'titulo' => $titulo,
 	'navbar' => new Template( 'templates/navbar.php', array() ),
-	'giira'  => new Template( 'templates/grupo.php', array( 'nombre' =>'GIIRA',  'descripcion' => 'Grupo giira '. $lorem , 'url'=> 'giira/index.php' )),
-	'quinoa' => new Template( 'templates/grupo.php', array( 'nombre' =>'QUINOA', 'descripcion' => 'Grupo Quinoa '. $lorem, 'url'=> '#')),
-	'gitud'  => new Template( 'templates/grupo.php', array( 'nombre' =>'GITUD',  'descripcion' => 'Grupo GITUD '. $lorem,  'url'=> '#')) 
+	'giira'  => new Template( 'templates/grupo.php', array( 'nombre' =>'GIIRA',  'descripcion' => 'Grupo giira '. 'Grupo de Investigación en Interoperabilidad de Redes Académicas' , 'url'=> 'giira/index.php' )),
+	'quinoa' => new Template( 'templates/grupo.php', array( 'nombre' =>'QUINOA', 'descripcion' => 'Grupo Quinoa '.' Semillero de Investigación QUINOA', 'url'=> '#')),
+	'gitud'  => new Template( 'templates/grupo.php', array( 'nombre' =>'GITUD',  'descripcion' => 'Grupo GITUD '. 'Grupo de Investigación de telecomunicaciones de la Universidad Distrital.',  'url'=> '#')) 
 ));
 $template->render();
